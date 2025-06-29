@@ -7,8 +7,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Arin Kulshi
-    tagline: Senior Software Engineer
+    name: Arindam Kulshi
+    tagline: Staff Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -48,147 +48,125 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Staff Software Engineer with 8 years of experience specializing in healthcare technology,
+      FHIR/HL7 health information exchange protocols, data engineering and now a focus on generative AI. Proven track record of 
+      building scalable systems for federal contracts and healthcare organizations, with 
+      expertise in Java Spring Boot, React, and cloud-native architectures.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: M.S Computer Science
+        university: The University of West Florida
+        time: 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          GPA: 3.94
+      - degree: B.S Psychology Emphasis in Biology
+        university: University of California, Davis
+        time: 2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Completed undergraduate studies with focus on psychology and biological sciences.
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Staff Software Engineer
+        time: Jan 2024 - Present
+        company: Skylight Digital (CDC Federal Contract), San Francisco
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Working on Simple Report, a tool to transmit surveillance data from public 
+          institutions to Federal CDC systems using Spring Boot Java, React, Postgres, 
+          GraphQL, GHA, and FHIR/HL7 protocols.
+            - Contributed to Simple Report for federal surveillance data transmission
+            - Designed HL7/FHIR data exchange protocols for Electronic Lab Reports processing
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: July 2021 - Nov 2023
+        company: Health Gorilla, Palo Alto
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Developed Patient Management System using Typescript, React, Postgres, 
+          GraphQL, AWS Lambda, and FHIR protocols for healthcare data exchange.
+            - Implemented FHIR data exchange protocols for Health Gorilla customers
+            - Deployed AWS Lambda endpoints for CarePlan enhancing patient tracking capabilities
+            - Optimized GraphQL endpoints, improving ReactJS application performance by 10%
+            - Implemented keyword and wildcard search across 1000+ data points
+      - role: Lead Software Engineer
+        time: Jan 2021 - July 2021
+        company: Carbon Health, Palo Alto
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Built Care Provider Tools Dashboard using ReactJS, NodeJS, MongoDB, 
+          GoogleCloud, and GithubActions for HIPAA-compliant healthcare applications.
+            - Implemented atomic NodeJS API endpoints in 20-day timeline
+            - Managed HIPAA-compliant data for 100+ patients ensuring security and privacy
+            - Crafted MongoDB schemas handling 50k task transactions per hour
+            - Implemented OAuth 2.0 'Sign in with Google' for enhanced security
+            - Deployed dashboard to cloud-native HIPAA-compliant platform using GCP Cloud Run
+      - role: Software Engineer
+        time: July 2018 - Jan 2021
+        company: Kaiser Permanente, Pleasanton
+        details: |
+          Developed Thrive AI recommendation system and Patient Message Queue using 
+          Python, Flask, Redis, MongoDB, Kafka, Springboot, and Angular.
+            - Developed Thrive AI antibiotic recommendation system launched March 2020
+            - Engineered API endpoints handling 250+ requests hourly
+            - Migrated application to Azure VPC decreasing costs by 15%
+            - Implemented secure Kafka producer/consumer processing 10k messages hourly
+            - Built patient dashboards improving analytics efficiency by 40%
+      - role: Data Engineer
+        time: November 2017 - May 2018
+        company: Mindgadget, San Jose
+        details: |
+          Focused on Security Management of Personally Identifiable Information (PII) 
+          using pySpark, SQL, and Stream Processing for medical data classification.
+            - Identified and classified 95% of medical PII data from document analysis
+            - Built data pipeline for PII identification meeting workflow standards
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Healthcare technology projects focusing on FHIR/HL7 data exchange, 
+      patient management systems, and federal compliance solutions.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Simple Report
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Federal CDC surveillance data transmission tool using Spring Boot and FHIR/HL7 protocols."
 
-      - title: Tempo
+      - title: Health Gorilla Patient Management
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "FHIR-compliant patient management system with GraphQL optimization and advanced search capabilities."
 
-      - title: Atom
+      - title: Thrive AI
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "AI-powered antibiotic recommendation system for Kaiser Permanente deployed in production."
 
-      - title: Delta
+      - title: Care Provider Dashboard
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "HIPAA-compliant care provider tools dashboard deployed on GCP Cloud Run."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
+      - title: Patient Message Queue
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        tagline: "Event-driven Kafka messaging system for patient data processing and analytics."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java Spring Boot & FHIR/HL7
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python & Flask
         level: 95%
 
-      - name: Ruby on Rails
+      - name: React & TypeScript
+        level: 95%
+
+      - name: AWS & GCP Cloud Services
+        level: 90%
+
+      - name: PostgreSQL & MongoDB
+        level: 88%
+
+      - name: Kafka & Data Engineering
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
-
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="google.com" target="_blank" rel="nofollow">Arin Kulshi</a>
