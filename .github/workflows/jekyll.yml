@@ -2,9 +2,9 @@ name: Build and Deploy Jekyll Site
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
@@ -18,10 +18,12 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0'
-        bundler-cache: true
+        bundler-cache: false
         
     - name: Install dependencies
-      run: bundle install
+      run: |
+        bundle config unset deployment
+        bundle install
       
     - name: Build site
       run: bundle exec jekyll build
